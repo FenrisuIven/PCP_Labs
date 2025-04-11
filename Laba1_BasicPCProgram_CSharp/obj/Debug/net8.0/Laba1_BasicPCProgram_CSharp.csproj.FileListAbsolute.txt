@@ -1,0 +1,14 @@
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\bin\Debug\net8.0\Laba1_BasicPCProgram_CSharp.exe
+C:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\bin\Debug\net8.0\Laba1_BasicPCProgram_CSharp.deps.json
+C:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\bin\Debug\net8.0\Laba1_BasicPCProgram_CSharp.runtimeconfig.json
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\bin\Debug\net8.0\Laba1_BasicPCProgram_CSharp.dll
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\bin\Debug\net8.0\Laba1_BasicPCProgram_CSharp.pdb
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.AssemblyInfoInputs.cache
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.AssemblyInfo.cs
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.csproj.CoreCompileInputs.cache
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.dll
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\refint\Laba1_BasicPCProgram_CSharp.dll
+c:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.pdb
+C:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\Laba1_BasicPCProgram_CSharp.genruntimeconfig.cache
+C:\Users\Nova\source\repos\3y 2s oh wow webdev\PCP\Laba1_BasicPCProgram_CSharp\obj\Debug\net8.0\ref\Laba1_BasicPCProgram_CSharp.dll

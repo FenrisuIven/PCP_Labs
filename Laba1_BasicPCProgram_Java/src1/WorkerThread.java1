@@ -1,0 +1,36 @@
+public class WorkerThread extends Thread {
+    public int sum = 0;
+    public int iterations = 0;
+    private final int id;
+    private final double step;
+    private WorkerThreadBreaker breaker = null;
+
+    public WorkerThread(int id, double step) {
+        this.id = id;
+        this.step = step;
+    }
+
+    public synchronized void injectBreaker(WorkerThreadBreaker breaker) {
+        if (this.breaker == null) {
+            this.breaker = breaker;
+        }
+    }
+
+    public String getWorkerThreadName() {
+        return "Thread #" + this.id + " (step = " + this.step + ")";
+    }
+
+    public String getWorkerThreadResult() {
+        return "Iterations = " + this.iterations + "; Sum = " + this.sum;
+    }
+
+    @Override
+    public void run() {
+        do {
+            this.sum += this.step;
+            this.iterations++;
+        } while (!this.breaker.isCanStop());
+
+        System.out.println(this.getWorkerThreadName() + ": " + this.getWorkerThreadResult() + "\n" + this.breaker.getMeta() + "\n------");
+    }
+}
