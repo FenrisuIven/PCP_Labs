@@ -4,10 +4,12 @@ public class StorageProducer
 {
   private int itemsAmount;
   private StorageManager manager;
+  private int idx;
 	
-  public StorageProducer (StorageManager manager, int itemsAmount) {
+  public StorageProducer (StorageManager manager, int itemsAmount, int idx) {
     this.manager = manager;
     this.itemsAmount = itemsAmount;
+    this.idx = idx;
 		
     new Thread(Start).Start();
   }
@@ -19,10 +21,9 @@ public class StorageProducer
       manager.getAddItemPermit();
       manager.getAccessPermit();
 
-      manager.addItem("item " + i);
-      Console.WriteLine("Added item " + i);
+      manager.addItem($"item {i} [ {this.ToString().Split('.')[^1]}-{idx} ]");
+      Console.WriteLine($"Added item {i} [ {this.ToString().Split('.')[^1]}-{idx} ]");
 
-      Thread.Sleep(1000);
       manager.dropAccessPermit();
       manager.addNewTakeItemPermit();
     }

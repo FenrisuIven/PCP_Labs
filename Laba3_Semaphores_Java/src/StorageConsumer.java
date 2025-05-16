@@ -19,7 +19,7 @@ public class StorageConsumer implements Runnable {
 				manager.getAccessPermit();
 				
 				item = manager.takeItem();
-				System.out.println(this + " : " + item);
+				System.out.println(this + " take : " + item);
 				
 				manager.dropAccessPermit();
 				manager.newAddItemPermit();

@@ -7,16 +7,16 @@ class Program
   static void Main(string[] args)
   {
     Program program = new Program();
-    program.Start(3, 10);
+    program.Start(5, 8, 3);
   }
 
-  private void Start(int storageSize, int amountItems)
+  private void Start(int storageSize, int amountItems, int amountWorkers)
   {
     StorageManager manager = new StorageManager(storageSize, amountItems);
-    new StorageConsumer(manager, amountItems * 4);
-    new StorageProducer(manager, amountItems);
-    new StorageProducer(manager, amountItems);
-    new StorageProducer(manager, amountItems);
-    new StorageProducer(manager, amountItems);
+    
+    new StorageConsumer(manager, amountItems * amountWorkers, 0);
+    for (int i = 0; i < amountWorkers; i++) {
+      new StorageProducer(manager, amountItems, i);
+    }
   }
 }

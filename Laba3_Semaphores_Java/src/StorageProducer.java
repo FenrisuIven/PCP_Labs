@@ -17,7 +17,7 @@ public class StorageProducer implements Runnable {
 				manager.getAccessPermit();
 				
 				manager.addItem("item " + i + " [ " + this + " ]");
-				System.out.println("Added item " + i);
+				System.out.println("Added item " + i + " [ " + this + " ]");
 
 				Thread.sleep(1000);
 				manager.dropAccessPermit();
